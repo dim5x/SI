@@ -37,7 +37,7 @@ def user_login():
 
         # password = request.form.get('password')
         # print(login, password)
-        if login == 'admin':
+        if login:
             # return render_template('game.html', name=name,q=q[nomer])
             return redirect('/game')
     return render_template('login.html')

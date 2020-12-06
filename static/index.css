@@ -1,0 +1,49 @@
+body {
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  /*margin: 0 auto; !* Выравнивание по центру. *!*/
+  width: 100%;
+}
+
+td {
+  border: 1px solid black;
+  width: 33%;
+}
+
+.zag {
+  width: 50%;
+  color: black;
+
+}
+
+.button {
+  width: 10%;
+
+}
+
+.j {
+  display: flex;
+  justify-content: center;
+  /*width: 100%;*/
+  /*justify-content: ;*/
+  /*justify-content: space-between;*/
+  /*justify-content: space-between;*/
+  /*align-content: space-between;*/
+}
+
+.q {
+  border-collapse: collapse;
+  /*margin: 0 auto; !* Выравнивание по центру. *!*/
+  width: 100%;
+  font-size: 30px;
+}
+
+.foot {
+  width: 33%;
+  margin: 0 auto; /* Выравнивание по центру. */
+
+}
+

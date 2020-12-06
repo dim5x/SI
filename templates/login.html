@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block body %}
+<body>
+<div class="container login-container" align="center">
+    <form method="post">
+        <div class="form-group">
+            <input name="login" required="required" autofocus type="text" class="form-control"
+                   placeholder="Login *"/>
+        </div>
+        <!--        <div class="form-group">-->
+        <!--            <input name="password" required="required" autofocus type="password" class="form-control"-->
+        <!--                   placeholder="Password *"/>-->
+        <!--        </div>-->
+        <div class="form-group">
+            <input type="submit" class="btnSubmit" value="Send password"/>
+        </div>
+        <span style="color:#e74c3c">{{ message }}</span>
+    </form>
+</div>
+</body>
+{% endblock %}
